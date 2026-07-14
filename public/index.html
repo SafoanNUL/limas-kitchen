@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lima's Kitchen · লিমা'স রান্নাঘর — home-cooked Bengali party food, Welling</title>
+  <meta name="description" content="Home-cooked Bengali party food made to order in Welling DA16. Biryani, noodles, curries and sweets for your gatherings. Collection only, cash on collection.">
+  <meta property="og:title" content="Lima's Kitchen · লিমা'স রান্নাঘর">
+  <meta property="og:description" content="Home-cooked Bengali party food made to order in Welling. Order for collection; we call to confirm.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23b65c38'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23f4e3c8' stroke-width='2.5' stroke-dasharray='5 4'/%3E%3Ccircle cx='32' cy='32' r='9' fill='%23f4e3c8'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ═══════════ SVG symbol library (decorative, hidden) ═══════════ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- alpona lotus flourish -->
+    <symbol id="s-alpona" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M24 40 C24 30 14 28 10 20 C16 22 20 20 24 12 C28 20 32 22 38 20 C34 28 24 30 24 40 Z"/>
+      <path d="M24 40 C22 34 18 33 15 30 M24 40 C26 34 30 33 33 30"/>
+      <circle cx="24" cy="21" r="2.6"/>
+      <path d="M8 42 Q24 36 40 42" stroke-dasharray="3 4"/>
+    </symbol>
+    <!-- paisley -->
+    <symbol id="s-paisley" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M30 8 C40 12 42 26 34 34 C28 40 18 40 14 34 C10 28 14 22 20 22 C26 22 28 28 24 31"/>
+      <circle cx="27" cy="17" r="2"/>
+      <path d="M8 40 Q16 34 24 40" stroke-dasharray="3 4"/>
+    </symbol>
+    <!-- category: noodle bowl -->
+    <symbol id="s-noodles" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M8 24 h32 a16 9 0 0 1 -32 0 Z"/>
+      <path d="M12 24 C12 12 18 10 18 5 M20 24 C20 12 26 10 26 5 M28 24 C28 12 34 10 34 5"/>
+      <path d="M36 8 L44 4 M36 13 L45 10"/>
+    </symbol>
+    <!-- category: biryani handi -->
+    <symbol id="s-biryani" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M10 20 C10 32 14 40 24 40 C34 40 38 32 38 20"/>
+      <path d="M8 20 h32"/>
+      <path d="M14 20 C14 15 18 12 24 12 C30 12 34 15 34 20"/>
+      <path d="M20 8 C20 6 22 6 22 4 M27 8 C27 6 29 6 29 4"/>
+    </symbol>
+    <!-- category: rice grains -->
+    <symbol id="s-rice" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M8 30 h32 l-4 10 h-24 Z"/>
+      <ellipse cx="16" cy="24" rx="2.6" ry="4.5" transform="rotate(-20 16 24)"/>
+      <ellipse cx="25" cy="20" rx="2.6" ry="4.5" transform="rotate(12 25 20)"/>
+      <ellipse cx="33" cy="25" rx="2.6" ry="4.5" transform="rotate(-8 33 25)"/>
+    </symbol>
+    <!-- category: curry pot -->
+    <symbol id="s-curry" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M12 22 C10 34 16 40 24 40 C32 40 38 34 36 22"/>
+      <path d="M9 22 h30"/>
+      <path d="M18 16 C18 13 20 13 20 10 M25 16 C25 13 27 13 27 10 M32 16 C32 13 34 13 34 10"/>
+    </symbol>
+    <!-- category: samosa -->
+    <symbol id="s-samosa" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M24 8 L42 38 H6 Z"/>
+      <path d="M24 8 C22 18 26 24 20 38 M15 25 C20 27 28 27 33 25" stroke-dasharray="4 3"/>
+    </symbol>
+    <!-- category: sweets -->
+    <symbol id="s-sweet" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M10 26 h28 a14 8 0 0 1 -28 0 Z"/>
+      <circle cx="19" cy="20" r="3"/><circle cx="29" cy="20" r="3"/><circle cx="24" cy="14" r="3"/>
+    </symbol>
+    <!-- category: pre-order star -->
+    <symbol id="s-star" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+      <path d="M24 6 L28 18 L41 18 L31 26 L35 39 L24 31 L13 39 L17 26 L7 18 L20 18 Z"/>
+    </symbol>
+    <!-- small ui icons -->
+    <symbol id="s-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21 C12 21 5 14.5 5 9.5 a7 7 0 0 1 14 0 C19 14.5 12 21 12 21 Z"/><circle cx="12" cy="9.5" r="2.6"/>
+    </symbol>
+    <symbol id="s-cash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <rect x="3" y="7" width="18" height="11" rx="2"/><circle cx="12" cy="12.5" r="2.8"/><path d="M6.5 10.5 v.01 M17.5 14.5 v.01"/>
+    </symbol>
+    <symbol id="s-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="12" cy="12" r="9"/><path d="M12 7 v5 l3.2 2"/>
+    </symbol>
+    <symbol id="s-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 4 h4 l2 5 -2.5 1.5 a12 12 0 0 0 5 5 L15 13 l5 2 v4 a2 2 0 0 1 -2 2 A16 16 0 0 1 3 6 a2 2 0 0 1 2 -2 Z"/>
+    </symbol>
+    <symbol id="s-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 12.5 L9.5 18 L20 6.5"/>
+    </symbol>
+    <symbol id="s-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 19 C5 9 11 4 20 4 C20 14 14 19 5 19 Z"/><path d="M5 19 C8 13 12 9 17 7"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ═══════════ HEADER ═══════════ -->
+<header class="header" id="top">
+  <div class="wrap header__inner">
+    <a class="brand" href="#top" aria-label="Lima's Kitchen — home">
+      <span class="brand__mark">
+        <svg class="brand__badge" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" fill="oklch(0.585 0.14 40)"/>
+          <circle cx="32" cy="32" r="22" fill="none" stroke="oklch(0.97 0.02 85)" stroke-width="2.5" stroke-dasharray="5 4"/>
+          <circle cx="32" cy="32" r="9" fill="oklch(0.97 0.02 85)"/>
+        </svg>
+        <span>
+          <span class="brand__name" data-i18n="brand">Lima's Kitchen</span><br>
+          <span class="brand__sub" data-i18n="brandSub">লিমা'স রান্নাঘর</span>
+        </span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#story" data-i18n="nav_story">Our story</a>
+      <a href="#menu" data-i18n="nav_menu">Menu</a>
+      <a href="#bundles" data-i18n="nav_bundles">Bundles</a>
+      <a href="#how" data-i18n="nav_how">How it works</a>
+    </nav>
+    <div class="lang-toggle" role="group" aria-label="Language / ভাষা">
+      <button type="button" id="lang-en" aria-pressed="true">English</button>
+      <button type="button" id="lang-bn" lang="bn" aria-pressed="false">বাংলা</button>
+    </div>
+    <span class="header__order">
+      <a class="btn" href="#order"><span class="cta-long" data-i18n="startOrder">Start an order</span><span class="cta-short" data-i18n="nav_order">Order</span></a>
+    </span>
+  </div>
+</header>
+
+<main>
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div>
+        <p class="kicker hero__kicker" data-i18n="hero_kicker">Home-cooked Bengali party food, made in Welling</p>
+        <h1 data-i18n="hero_title">Food for your gathering, cooked the way home tastes.</h1>
+        <p class="hero__body" data-i18n="hero_body">Biryani, noodles, curries and sweets for parties and family days, made to order and ready to collect. I cook everything myself, and I'll call to confirm before you come.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--lg" href="#menu" data-i18n="hero_cta">See the menu</a>
+          <a class="btn btn--lg btn--ghost" href="#how" data-i18n="hero_cta2">How ordering works</a>
+        </div>
+        <div class="hero__badges">
+          <span class="hero__badge"><svg width="18" height="18"><use href="#s-pin"/></svg><span data-i18n="hero_badge_collect">Collection from Welling DA16</span></span>
+          <span class="hero__badge"><svg width="18" height="18"><use href="#s-cash"/></svg><span data-i18n="hero_badge_cash">Pay cash on collection</span></span>
+          <span class="hero__badge"><svg width="18" height="18"><use href="#s-clock"/></svg><span data-i18n="hero_badge_lead">Please order 48 hours ahead</span></span>
+        </div>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <div class="plate" id="hero-plate">
+          <svg class="plate__flourish" viewBox="0 0 200 200">
+            <g transform="translate(100 100)">
+              <use href="#s-alpona" x="-24" y="-24" width="48" height="48" transform="scale(1.7)"/>
+            </g>
+            <g opacity="0.7">
+              <use href="#s-paisley" x="30" y="26" width="34" height="34"/>
+              <use href="#s-paisley" x="136" y="26" width="34" height="34" transform="scale(-1,1) translate(-306,0)"/>
+              <use href="#s-paisley" x="30" y="140" width="34" height="34" transform="scale(1,-1) translate(0,-314)"/>
+              <use href="#s-paisley" x="136" y="140" width="34" height="34" transform="scale(-1,-1) translate(-306,-314)"/>
+            </g>
+          </svg>
+          <div class="plate__rim"></div>
+        </div>
+        <div class="hero__note">
+          <svg width="18" height="18"><use href="#s-phone"/></svg>
+          <span data-i18n="foot_confirm">I call to confirm every order before you collect.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ═══════════ STORY ═══════════ -->
+  <section class="section story" id="story">
+    <div class="wrap story__grid">
+      <div class="story__portrait reveal" id="story-portrait" aria-hidden="true">
+        <span class="story__frame"></span>
+        <svg class="story__portrait-flourish" viewBox="0 0 200 250">
+          <use href="#s-alpona" x="66" y="80" width="68" height="68"/>
+          <use href="#s-paisley" x="20" y="190" width="36" height="36"/>
+          <use href="#s-paisley" x="144" y="190" width="36" height="36" transform="scale(-1,1) translate(-324,0)"/>
+        </svg>
+      </div>
+      <blockquote class="reveal">
+        <p class="kicker" data-i18n="story_kicker">A note from me</p>
+        <h2 data-i18n="story_title">I'm Lima. I cook the food my family grew up on.</h2>
+        <p class="lead" style="margin-top:1.1rem" data-i18n="story_body_1">For years I've cooked for our own dawats, Eids and gatherings, and friends kept asking if I'd cook for theirs. So here we are.</p>
+        <p data-i18n="story_body_2">Everything is made by hand in my own kitchen, in small amounts, the day it's needed. Nothing sits in a freezer. Tell me about your day and how many people, and I'll help you get the amounts right.</p>
+        <p class="story__signoff" data-i18n="story_signoff">With love, Lima</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ═══════════ MENU ═══════════ -->
+  <section class="section" id="menu">
+    <div class="wrap">
+      <div class="menu__head reveal">
+        <p class="kicker" data-i18n="menu_kicker">The menu</p>
+        <h2 data-i18n="menu_title">What I cook</h2>
+        <p class="menu__note" style="margin-top:1rem" data-i18n="menu_note">Trays are sized by roughly how many they serve. A large serves about ten. Tell me about any allergies when you order.</p>
+      </div>
+      <div id="menu-root"><!-- categories rendered by app.js --></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ BUNDLES ═══════════ -->
+  <section class="section bundles" id="bundles">
+    <div class="wrap">
+      <div class="bundles__head reveal">
+        <p class="kicker" data-i18n="bundles_kicker">Bundles</p>
+        <h2 data-i18n="bundles_title">Feed everyone, sorted</h2>
+        <p class="menu__note" style="margin-top:1rem" data-i18n="bundles_note">A little cheaper than ordering the parts separately. Good for bigger days.</p>
+      </div>
+      <div class="bundle-grid" id="bundle-root"><!-- rendered by app.js --></div>
+    </div>
+  </section>
+
+  <!-- ═══════════ HOW IT WORKS ═══════════ -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="how__head reveal">
+        <p class="kicker" data-i18n="how_kicker">How it works</p>
+        <h2 data-i18n="how_title">Simple, and personal</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-step reveal"><span class="how-step__num">১</span><h3 data-i18n="how_1_t">Place your order</h3><p data-i18n="how_1_b">Pick your dishes and sizes and send it over. It only takes a minute.</p></div>
+        <div class="how-step reveal"><span class="how-step__num">২</span><h3 data-i18n="how_2_t">I'll call to confirm</h3><p data-i18n="how_2_b">I ring you to check the details, the amounts and the day. Nothing is fixed until we've spoken.</p></div>
+        <div class="how-step reveal"><span class="how-step__num">৩</span><h3 data-i18n="how_3_t">Collect from Welling</h3><p data-i18n="how_3_b">Come and pick it up on your day, hot and ready. Collection only, DA16.</p></div>
+        <div class="how-step reveal"><span class="how-step__num">৪</span><h3 data-i18n="how_4_t">Pay cash</h3><p data-i18n="how_4_b">You pay in person when you collect. No card, no online payment.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="stitch-divider" aria-hidden="true">
+
+  <!-- ═══════════ ORDER ═══════════ -->
+  <section class="section order" id="order">
+    <div class="wrap">
+      <div class="order__head reveal">
+        <p class="kicker" data-i18n="order_kicker">Your order</p>
+        <h2 data-i18n="order_title">Send your order</h2>
+      </div>
+      <div class="order__grid">
+        <form id="order-form" novalidate>
+          <div class="field" data-field="name">
+            <label for="f-name" data-i18n="f_name">Your name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <p class="field__err" data-i18n="err_name">Please tell me your name.</p>
+          </div>
+          <div class="field" data-field="phone">
+            <label for="f-phone" data-i18n="f_phone">Phone number</label>
+            <span class="hint" data-i18n="f_phone_hint">So I can call to confirm</span>
+            <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
+            <p class="field__err" data-i18n="err_phone">Please give a phone number so I can call to confirm.</p>
+          </div>
+          <div class="field">
+            <label for="f-email" data-i18n="f_email">Email (optional)</label>
+            <input id="f-email" name="email" type="email" autocomplete="email">
+          </div>
+          <div class="field--row">
+            <div class="field" data-field="date">
+              <label for="f-date" data-i18n="f_date">Date you need it</label>
+              <span class="hint" data-i18n="f_date_hint">At least 48 hours from now</span>
+              <input id="f-date" name="date" type="date" required>
+              <p class="field__err" data-i18n="err_lead">Please choose a date at least 48 hours from now.</p>
+            </div>
+            <div class="field">
+              <label for="f-time" data-i18n="f_time">Collection time</label>
+              <span class="hint" data-i18n="f_time_hint">Roughly when suits you</span>
+              <select id="f-time" name="time">
+                <option value="Morning" data-i18n="f_time_morning">Morning</option>
+                <option value="Afternoon" selected data-i18n="f_time_afternoon">Afternoon</option>
+                <option value="Evening" data-i18n="f_time_evening">Evening</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-allergies" data-i18n="f_allergies">Allergies</label>
+            <span class="hint" data-i18n="f_allergies_hint">Tell me about any allergies so I can keep you safe</span>
+            <textarea id="f-allergies" name="allergies" data-i18n-ph="f_allergies_ph"></textarea>
+          </div>
+          <div class="field">
+            <label for="f-notes" data-i18n="f_notes">Anything else</label>
+            <textarea id="f-notes" name="notes" data-i18n-ph="f_notes_ph"></textarea>
+          </div>
+        </form>
+
+        <aside class="summary" aria-live="polite">
+          <div class="summary__head">
+            <svg width="20" height="20" style="color:var(--terracotta)"><use href="#s-curry"/></svg>
+            <h3 data-i18n="order_summary">Order summary</h3>
+          </div>
+          <div class="summary__body" id="summary-body">
+            <p class="summary__empty" data-i18n="order_empty">Your order is empty. Add a few dishes from the menu above and they'll appear here.</p>
+          </div>
+          <div class="friends" id="friends-box">
+            <p class="friends__prompt" data-i18n="friends_prompt">Have a friends code?</p>
+            <div class="friends__row">
+              <input type="text" id="friends-input" autocomplete="off" autocapitalize="characters" aria-label="Friends code">
+              <button type="button" class="btn btn--ghost" id="friends-btn" style="padding:0.5rem 1rem" data-i18n="friends_apply">Apply</button>
+            </div>
+            <p class="friends__msg" id="friends-msg"></p>
+          </div>
+          <div class="summary__total">
+            <div class="total-row">
+              <span class="label" data-i18n="subtotal">Estimated total</span>
+              <span class="amount" id="total-amount">£0.00</span>
+            </div>
+            <p class="summary__note" data-i18n="subtotal_note">Final amount is confirmed on the phone. Pay cash on collection.</p>
+          </div>
+          <div class="summary__submit">
+            <button type="button" class="btn btn--block btn--lg" id="submit-btn" data-i18n="submit">Send order</button>
+            <p class="field__err" id="submit-err" style="display:none; margin-top:0.6rem"></p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <span class="brand__name" style="font-size:1.5rem" data-i18n="brand">Lima's Kitchen</span><br>
+      <span style="opacity:0.75" data-i18n="brandSub">লিমা'স রান্নাঘর</span>
+      <p class="footer__tagline" data-i18n="foot_tagline">Home-cooked Bengali party food, made to order in Welling.</p>
+    </div>
+    <div>
+      <h3 class="footer__details-title" data-i18n="foot_details">The practical bits</h3>
+      <ul class="footer__list">
+        <li><svg width="16" height="16"><use href="#s-pin"/></svg><span data-i18n="foot_collect">Collection only from Welling, DA16. No delivery.</span></li>
+        <li><svg width="16" height="16"><use href="#s-cash"/></svg><span data-i18n="foot_pay">Payment is cash on collection.</span></li>
+        <li><svg width="16" height="16"><use href="#s-clock"/></svg><span data-i18n="foot_lead">Please order at least 48 hours ahead. Larger orders may need a little longer.</span></li>
+        <li><svg width="16" height="16"><use href="#s-leaf"/></svg><span data-i18n="foot_allergen">Allergen information is shown against each dish. Please tell me about any allergies when you order.</span></li>
+        <li><svg width="16" height="16"><use href="#s-phone"/></svg><span data-i18n="foot_confirm">I call to confirm every order before you collect.</span></li>
+      </ul>
+    </div>
+    <div class="footer__contact">
+      <span class="footer__call-label" data-i18n="foot_call">Call or text</span><br>
+      <a class="footer__phone" id="footer-phone" href="tel:07404034660">07404 034660</a>
+    </div>
+  </div>
+  <div class="wrap footer__base">
+    <span data-i18n="foot_rights">Lima's Kitchen, Welling.</span>
+    <span>© <span id="year">2026</span></span>
+  </div>
+</footer>
+
+<!-- mobile order bar -->
+<div class="mobile-bar" id="mobile-bar">
+  <a class="btn" href="#order"><span data-i18n="viewOrder">Your order</span>&nbsp;<span class="count" id="mobile-count">0</span></a>
+</div>
+
+<!-- confirmation overlay -->
+<div class="overlay" id="confirm-overlay" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+  <div class="confirm">
+    <div class="confirm__mark"><svg width="34" height="34"><use href="#s-check"/></svg></div>
+    <h3 id="confirm-title" data-i18n="conf_title">Thank you, your order is in.</h3>
+    <p data-i18n="conf_body">I've got your order and I'll call you to confirm everything. Payment is cash when you collect from Welling.</p>
+    <div class="confirm__ref">
+      <span class="label" data-i18n="conf_ref">Your reference</span>
+      <span class="code" id="confirm-ref">LK-00000</span>
+    </div>
+    <br>
+    <button type="button" class="btn" id="confirm-close" data-i18n="conf_close">Place another order</button>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="assets/js/menu-data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/img/manifest.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
