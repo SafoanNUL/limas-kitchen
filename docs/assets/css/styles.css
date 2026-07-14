@@ -495,7 +495,7 @@ html[data-lang="bn"] .footer__call-label { text-transform: none; letter-spacing:
   border-top: 1px solid var(--line); box-shadow: 0 -4px 20px oklch(0.3 0.05 40 / 0.08); }
 .mobile-bar .btn { width: 100%; }
 .mobile-bar .count { background: oklch(0.99 0.01 80 / 0.25); border-radius: 999px; padding: 0.05rem 0.55rem; font-size: 0.85rem; }
-@media (max-width: 860px) { .mobile-bar.show { display: block; } body.has-order { padding-bottom: 76px; } }
+@media (max-width: 860px) { .mobile-bar.show { display: block; } .mobile-bar.suppressed { display: none; } body.has-order { padding-bottom: 76px; } }
 
 /* reveal on scroll */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity 700ms var(--ease), transform 700ms var(--ease); }

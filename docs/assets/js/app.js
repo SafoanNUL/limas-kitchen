@@ -518,6 +518,13 @@
         entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
       }, { threshold: 0.12 });
       document.querySelectorAll(".reveal").forEach(function (n) { io.observe(n); });
+
+      // The floating order bar is redundant (and can block taps) once the
+      // order section is on screen — hide it there.
+      var orderIo = new IntersectionObserver(function (entries) {
+        document.getElementById("mobile-bar").classList.toggle("suppressed", entries[0].isIntersecting);
+      }, { threshold: 0.05 });
+      orderIo.observe(document.getElementById("order"));
     } else {
       document.querySelectorAll(".reveal").forEach(function (n) { n.classList.add("in"); });
     }
