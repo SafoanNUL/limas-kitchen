@@ -1,0 +1,14 @@
+1:"$Sreact.fragment"
+2:I[70119,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+3:I[92349,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+4:I[32772,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+5:I[16504,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+6:I[26855,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+7:I[97024,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+8:I[19769,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+9:I[56691,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+a:I[28587,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js","/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js"],"default"]
+b:I[62655,["/limas-kitchen/_next/static/chunks/04egyna4v9m78.js","/limas-kitchen/_next/static/chunks/1wdtgs1kqxdof.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}]]}],["$","$L9",null,{}],["$","$La",null,{}]],[["$","script","script-0",{"src":"/limas-kitchen/_next/static/chunks/2s364mflb1uc9.js","async":true}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MNQJMBhDwDHXawq_3PG6m"}
+d:null
